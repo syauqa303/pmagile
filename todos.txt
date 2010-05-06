@@ -1,0 +1,4 @@
+As a admin I want to add requirements for the project, based on what the stories can be estimated.
+One project can have multiple requirement. Total requirements will be a collection of requirements.
+
+As a admin

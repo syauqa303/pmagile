@@ -1,0 +1,2 @@
+<? 	include("../emp/endday.php");	
+?>

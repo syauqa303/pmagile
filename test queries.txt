@@ -1,0 +1,8 @@
+
+//to view total remaining hour 
+select dt,sum(remaining) from item_hour where id in (SELECT max(item_hour.id) FROM items,`item_hour` where items.id=item_hour.itemid and items.projectid=2 group by item_hour.dt,item_hour.itemid) group by dt desc;
+
+//to view all the last updated hours of one project.
+select * from item_hour where id in (SELECT max(item_hour.id) FROM items,`item_hour` where items.id=item_hour.itemid and items.projectid=2 group by item_hour.dt,item_hour.itemid)
+
+SELECT max(item_hour.id),items.name,item_hour.remaining,spent,dt FROM items,`item_hour` where items.id=item_hour.itemid and items.projectid=2 group by item_hour.dt,item_hour.itemid

@@ -1,0 +1,9 @@
+<? include("../lib/include.php"); ?>
+<?
+
+$q = mysql_query("select * from userworktime where id<1063 and id>1054");
+
+while($r = mysql_fetch_attay($q)){
+	echo $r[0]." ".$r[1]." ".$r[2]." ".$r[3]." <br/>";
+}
+?>
