@@ -1,0 +1,199 @@
+.redbg{
+	background-color:red;
+	color:white;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+.menuLink {
+	padding-left: 10px;
+	color: #333333;
+}
+.menuLinkSelected {
+	padding-left: 10px;
+	color: #ffffff;
+	background-color:#888888;
+}
+.menuLink:hover {
+	color: #ffffff;
+	background-color:#666666;
+}
+.impNotice{
+	background-color:#FFFFCC;
+}
+
+
+
+
+
+
+
+
+
+.nomonthday {
+	height:20px;
+	width:20px;
+}
+.selectedday {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #66ff66;
+	height:20px;
+	width:20px;
+}
+.event {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	background-color: #ffff99;
+	height:20px;
+	width:20px;
+}
+.monthname {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #DADADA;
+	color: #5D5D5D;
+	border-style: outset;
+	border-width:1px
+}
+.yearname {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.today {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #5CB5C7;
+	color: #ffffff;
+	height:20px;
+	width:20px;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+a{
+	text-decoration: none;
+}
+h1{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#666666;
+}
+
+h2{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+.imp1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #CCCCCC;
+}
+.imp2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.normalText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+
+
+ 
+
+.listHeader{
+	background-color:#666666;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.listTD{
+	border:1px solid #FFFFFF;
+}
+.listTable{
+	border:1px solid #333333;
+	background-color:#F3F3F3;
+}
+.listOddCell{
+	background-color:#CCCCCC;
+}
+.listEvenCell{
+	background-color:#FFFFFF;
+}
+
+
+
+
+.editHeader{
+	background-color:#CCCCCC;
+	font-weight:bold;
+}
+.editTable{
+	border-width:1px;
+	background-color:#F3F3F3;
+}
+.editTD{
+	border:1px solid #FFFFFF;
+}
+
+
+.addHeader{
+	background-color:#CCCCCC;
+	font-weight:bold;
+}
+.addTable{
+	background-color:#F3F3F3;
+	border-width:1px;
+}
+.addTD{
+	border:1px solid #FFFFFF;
+}
+
+
+.viewHeader{
+	background-color:#CCCCCC;
+	font-weight:bold;
+}
+.viewTable{
+	width:450px;
+	background-color:#F3F3F3;
+	border-width:1px;
+}
+.viewTD{
+	border:1px solid #FFFFFF;
+}
