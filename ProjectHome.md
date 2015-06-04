@@ -1,0 +1,1 @@
+We have a challenge that we have small projects which needs to be managed by agile but also needs some usual project management issues addressing. Like, people will work iteratively and continuous changing manner, incrementally. But, at the same time, for new features adding, there has to be change request management
